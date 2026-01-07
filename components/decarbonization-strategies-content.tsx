@@ -401,7 +401,7 @@ export default function DecarbonizationStrategiesContent({ source }: Decarboniza
                       <tr key={row.opportunity} className="border-t border-gray-100">
                         <td className="px-4 py-3">
                           <Link
-                            href={`/partner-marketplace/${sourceKey}`}
+                            href={`/partner-marketplace?source=${sourceKey}`}
                             className="text-left font-semibold text-[#2AA39F] hover:underline"
                           >
                             {row.opportunity}
